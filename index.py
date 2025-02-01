@@ -28,3 +28,4 @@ class handler(BaseHTTPRequestHandler):
         # Send JSON response
         self.wfile.write(json.dumps({"marks": marks}).encode('utf-8'))
         return
+        
